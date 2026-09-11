@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quiz 2 — Weeks 3–4 (Sessions 5–8) · Intro to Blockchain and Cryptocurrency</title>
+<link rel="stylesheet" href="../assets/course.css">
+</head>
+<body class="quiz-paper">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="top-inner">
+    <a class="brand" href="../index.html">Fintech
+      <span>Blockchain and Cryptocurrency</span>
+    </a>
+    <nav aria-label="Course"><a href="../index.html">Syllabus</a><a href="../handbook.html">Handbook</a><a href="../assessment.html">What to turn in</a><a href="../assignments/index.html">Assignments</a><a href="../labs/index.html">Labs</a><a href="../quizzes/index.html" aria-current="page">Quizzes</a></nav>
+  </div>
+</header>
+<div class="page">
+  <div class="layout">
+    
+    <article class="article" id="main">
+      <p class="kicker">Quiz — print or project</p>
+      <h1 id="quiz-2-weeks-3-4-sessions-5-8">Quiz 2 — Weeks 3–4 (Sessions 5–8)</h1>
+<p><strong>Intro to Blockchain and Cryptocurrency</strong> · Fintech<br><strong>Time:</strong> 15–20 minutes · <strong>Points:</strong> 20 · <strong>Closed notes</strong> · <strong>Bring a calculator</strong><br><strong>Covers:</strong> smart contracts as house rules, ERC-20 roles, unit vs rail, AMMs</p>
+<p><strong>How to take this.</strong> You will need the Quiz 2 numbers from class: start 100/100, buy 10 TEAM, pay 11.11, new spot 1.2346. Circle <strong>one</strong> letter. Show arithmetic on the short answers.</p>
+<p>Name: ________________________  Team: ________  Date: ________</p>
+<hr>
+<h2 id="part-a-multiple-choice-10-1-pt">Part A — Multiple choice (10 × 1 pt)</h2>
+<p>Circle <strong>one</strong> letter.</p>
+<p><strong>A1.</strong> In the intro version of Townsend’s circulating-private-debt story, uncoordinated private IOUs are a problem because:</p>
+<ul><li>(a) IOUs cannot be written without Ethereum</li><li>(b) Agents cannot easily know what to issue or how others will accept it, so the system can fail to coordinate</li><li>(c) All private money is illegal</li><li>(d) Smart contracts forbid IOUs</li></ul>
+<p><strong>A2.</strong> A smart contract, as used in this course, is best described as:</p>
+<ul><li>(a) A lawyer’s PDF</li><li>(b) Pre-agreed code that can hold and move value when stated conditions are met</li><li>(c) A proof-of-work puzzle</li><li>(d) A central-bank reserve account</li></ul>
+<p><strong>A3.</strong> On Ethereum, a transaction that <strong>reverts</strong> (fails) typically:</p>
+<ul><li>(a) Costs nothing</li><li>(b) Still consumes gas / fees, even though state did not update as intended</li><li>(c) Prints new ETH for the sender</li><li>(d) Finalizes in Bitcoin</li></ul>
+<p><strong>A4.</strong> The point of the <strong>ERC-20</strong> interface for this class is that:</p>
+<ul><li>(a) Every coin must have its own blockchain</li><li>(b) Wallets, CLASSUSD, and the class AMM can treat every team coin the same way (transfer, balance, approve)</li><li>(c) Tokens cannot have a cap</li><li>(d) Solidity must be written from scratch</li></ul>
+<p><strong>A5.</strong> The <code>pauser</code> role on a team coin is closest to which fintech job?</p>
+<ul><li>(a) Market-making intern</li><li>(b) Compliance / operations freeze when something is wrong</li><li>(c) Custodian bank’s vault guard only</li><li>(d) ETF authorized participant</li></ul>
+<p><strong>A6.</strong> CLASSUSD in this course is the <strong>unit of account</strong>. A team coin is primarily a:</p>
+<ul><li>(a) Central-bank reserve</li><li>(b) Competing rail / privately issued money that is priced in CLASSUSD</li><li>(c) Proof-of-work algorithm</li><li>(d) Legal tender in the United States</li></ul>
+<p><strong>A7.</strong> “Priced in dollars, settled in the coin” means:</p>
+<ul><li>(a) The invoice number is in USD and the payment rail can be the token</li><li>(b) The token is legal tender</li><li>(c) Gas is free</li><li>(d) No AMM is allowed</li></ul>
+<p><strong>A8.</strong> A constant-product pool holds <span class="math">x</span> TEAM and <span class="math">y</span> CLASSUSD with <span class="math">k = x \cdot y</span> fixed (no fees). If someone buys TEAM, then:</p>
+<ul><li>(a) <span class="math">x</span> rises and <span class="math">y</span> rises</li><li>(b) <span class="math">x</span> falls and <span class="math">y</span> rises, so the CLASSUSD-per-TEAM price rises</li><li>(c) <span class="math">k</span> must change by law</li><li>(d) Slippage is always zero</li></ul>
+<p><strong>A9.</strong> Impermanent loss, in the Naranjo / Uniswap intuition, is:</p>
+<ul><li>(a) The gas fee</li><li>(b) The gap between holding the two assets vs providing them as liquidity when prices move</li><li>(c) A slash on a validator</li><li>(d) The Howey test</li></ul>
+<p><strong>A10.</strong> Seeding a TEAM/CLASSUSD pool and then swapping is “sharing in the system” because:</p>
+<ul><li>(a) The instructor deletes other coins</li><li>(b) Classmates can get a quoted price and trade without a designated human market maker</li><li>(c) ERC-20 forbids transfers</li><li>(d) The coin leaves the testnet automatically</li></ul>
+<hr>
+<h2 id="part-b-short-answer-and-calculation-10-pts">Part B — Short answer and calculation (10 pts)</h2>
+<p><strong>B1. Coordination (4 pts)</strong><br>In 4–6 sentences: how does a <strong>shared minting rule</strong> (cap, minter role, roster airdrop) solve a problem that “each student prints their own IOU on paper” does not? Use the class system, not a slogan.</p>
+<p><strong>B2. AMM trade (6 pts)</strong><br>A fee-less constant-product pool has <strong>100 TEAM</strong> and <strong>100 CLASSUSD</strong>, so <span class="math">k = 10{,}000</span>.</p>
+<p>A classmate buys TEAM by adding CLASSUSD until <strong>90 TEAM</strong> remain in the pool.</p>
+<ol><li>(2 pts) What is the new CLASSUSD reserve?</li><li>(2 pts) How much CLASSUSD did the classmate pay (ignore gas)?</li><li>(2 pts) The spot price after the trade is CLASSUSD per TEAM. What is it, and why is it <strong>not</strong> 1.00?</li></ol>
+<p>Show work.</p>
+<hr>
+<p>End of Quiz 2</p>
+    </article>
+  </div>
+</div>
+<footer class="site">Fintech · Eagecoin (EAGE) · CLASSUSD · testnet only · 13 × 62 minutes · Print this page to PDF if your LMS wants a file.</footer>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Syllabus · Intro to Blockchain and Cryptocurrency</title>
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="top-inner">
+    <a class="brand" href="index.html">Fintech
+      <span>Blockchain and Cryptocurrency</span>
+    </a>
+    <nav aria-label="Course"><a href="index.html" aria-current="page">Syllabus</a><a href="handbook.html">Handbook</a><a href="assessment.html">What to turn in</a><a href="assignments/index.html">Assignments</a><a href="labs/index.html">Labs</a><a href="quizzes/index.html">Quizzes</a></nav>
+  </div>
+</header>
+<div class="page">
+  <div class="layout">
+    
+    <article class="article" id="main">
+      <p class="kicker">Intro to Blockchain and Cryptocurrency</p>
+      <h1 id="intro-to-blockchain-and-cryptocurrency">Intro to Blockchain and Cryptocurrency</h1>
+<p><strong>Program:</strong> Fintech<br><strong>Format:</strong> 7 weeks · 13 sections · 62 minutes each<br><strong>Meetings:</strong> Weeks 1–6 meet twice; Week 7 is a single demo-day section<br><strong>Contact time:</strong> 13 × 62 = 806 minutes<br></p>
+<div class="meta-grid"><div><strong>Instructor</strong><span><em>Salih Tutun, PhD.</em></span></div><div><strong>Email</strong><span><em>salihtutun@wustl.edu</em></span></div><div><strong>Term / room</strong><span><em>Fall2026</em> · <em>SH210</em></span></div><div><strong>Office hours</strong><span><em>Monday and Tuesday at 2 pm</em></span></div></div>
+<hr>
+<h2 id="1-what-this-course-is">1. What this course is</h2>
+<p>This is a <strong>Fintech</strong> course, not a computer-science cryptography course. We start from applications — a babysitting club that ran out of scrip, a remittance, a lemonade-stand market, a gift-card run — and only then open the mechanism.</p>
+<p>You will leave able to sit in a product, risk, or treasury meeting and make a literate call on Bitcoin, stablecoins, DeFi, tokenization, and CBDC. Ideology is out of scope. Mechanisms, incentives, and licenses are in.</p>
+<p>The through-line is a live project: you <strong>design a community money, issue it as a testnet token, and share it in the class system.</strong> Our running example is <strong>Eagecoin</strong> (ticker <strong>EAGE</strong>). Teams may use that name or another — but everyone holds classmates’ coins, prices them against instructor-issued <strong>CLASSUSD</strong>, and defends the design on demo day.</p>
+<p>We borrow <strong>applications</strong> from MIT 14.129 (<em>Blockchain and the Design of Financial Systems</em>, Townsend) and <strong>labs</strong> from Lorenzo Naranjo’s Fintech notebooks. We do not assign graduate proofs.</p>
+<hr>
+<h2 id="2-learning-outcomes">2. Learning outcomes</h2>
+<p>By the end of the course you can:</p>
+<ol><li><strong>Issue.</strong> Design a coin with an explicit community, supply rule, and claim — and deploy it on the class testnet.</li><li><strong>Circulate.</strong> Move that coin through wallets, peer payments, and an automated market maker (AMM) inside a shared system.</li><li><strong>Measure.</strong> Use Python labs (hashing / proof of work, constant-product markets, peg risk) to treat the coin as a financial object.</li><li><strong>Judge.</strong> Decide, MIT-style, which pieces of the crypto bundle the use case actually needed (database vs chain, registrar vs consensus, token vs escrow) — and whether a licensed fintech should <strong>build, partner, or pass</strong>.</li></ol>
+<p><strong>How we make the ideas stick.</strong> Every session notebook opens with <strong>Words we use today</strong> and closes with <strong>Check you understand</strong>. The longer explanation — cafeteria / house-key / lemonade pictures, worked numbers, mix-ups, and a glossary — lives in the <a href="handbook.html">concept handbook</a>. Read that session’s pages <em>before</em> class (about 10 minutes). If you can only say “decentralized,” you do not understand it yet.</p>
+<table><thead><tr><th>Week</th><th>Ideas you should be able to teach a sharp 15-year-old</th></tr></thead><tbody><tr><td>1</td><td>Three jobs of money · ledger · velocity · hash · signature · address vs seed</td></tr><tr><td>2</td><td>Block / PoW / verify · unbundle · price, index, beta · wallet vs ETF vs exchange tab</td></tr><tr><td>3</td><td>Smart contract, ERC-20, mint, cap, pause, gas · contract address <em>is</em> the coin</td></tr><tr><td>4</td><td>Unit vs rail · AMM <span class="math">x \times y = k</span> · spot vs average · slippage · IL</td></tr><tr><td>5</td><td>Claim vs receipt · atomic DvP · money flower · netting a triangle</td></tr><tr><td>6</td><td>Peg, depeg, run · kill criteria with numbers · Howey-shaped facts · Travel Rule</td></tr><tr><td>7</td><td>Unbundle · go / partner / pass · live proofs in order</td></tr></tbody></table>
+<hr>
+<h2 id="3-who-should-take-this">3. Who should take this</h2>
+<p><strong>Prerequisites.</strong> Intro microeconomics and intro finance (time value of money, basic financial institutions). Comfort following a Python notebook. No prior Solidity. No prior crypto required.</p>
+<p><strong>Out of scope.</strong> Writing production smart contracts from scratch, mining hardware, NFT culture as a core module, token-price forecasting, mainnet, or treating every database problem as a blockchain problem.</p>
+<hr>
+<h2 id="4-how-class-works">4. How class works</h2>
+<p>Each 62-minute section:</p>
+<table><thead><tr><th>Minutes</th><th>Block</th></tr></thead><tbody><tr><td>0–5</td><td>Application hook</td></tr><tr><td>5–25</td><td>Mechanism — only what the application needs</td></tr><tr><td>25–50</td><td>Lab / build (notebook or coin-system step)</td></tr><tr><td>50–62</td><td>Debrief and the week’s project gate</td></tr></tbody></table>
+<p>The instructor projects the <strong>class notebook</strong>. You may type along in the <strong>student notebook</strong> (<code>YOUR TURN</code> cells). Teaching scripts stay with the instructor. When a word does not land, open the <strong>concept handbook</strong> — do not wait for office hours to discover you swapped <em>spot</em> with <em>average</em>.</p>
+<p class="rule"><strong>Hard rule.</strong> Testnet only. No mainnet, no real money, no public sale. Never put a seed phrase in a PDF, a chat, or on the projector.</p>
+<hr>
+<h2 id="5-the-class-coin-system-eagecoin">5. The class coin system (Eagecoin)</h2>
+<p>Teams of 2–3. “Share in the system” means transaction hashes, not a slogan.</p>
+<table><thead><tr><th>Layer</th><th>Who provides it</th><th>What you do</th></tr></thead><tbody><tr><td>CLASSUSD</td><td>Instructor (class unit of account)</td><td>Hold it, price against it, redeem into it</td></tr><tr><td>Team coin (ERC-20)</td><td>Your team — Remix + OpenZeppelin wizard</td><td>Deploy, cap, mint, pause, airdrop the roster</td></tr><tr><td>Wallets</td><td>Your MetaMask (or equivalent)</td><td>Publish an address; receive every team’s coin</td></tr><tr><td>Market</td><td>Testnet AMM or the class AMM notebook</td><td>Seed <strong>EAGE / CLASSUSD</strong> (or your ticker); allow classmate swaps</td></tr><tr><td>Circulation log</td><td>Shared class sheet</td><td>≥5 peer payments + ≥1 external swap</td></tr><tr><td>Fallback</td><td>Python mini-ledger if wallets fail</td><td>Same economic design; say so in the log</td></tr></tbody></table>
+<hr>
+<h2 id="6-schedule">6. Schedule</h2>
+<table><thead><tr><th>Week</th><th>Theme</th><th>Sec.</th><th>Session</th><th>Project gate</th></tr></thead><tbody><tr><td>1</td><td>A community needs a money</td><td>S1</td><td>Community currencies before crypto</td><td>Teams + Coin Intent (A1)</td></tr><tr><td></td><td></td><td>S2</td><td>Keys, wallets, receiving value</td><td>Address on the roster</td></tr><tr><td>2</td><td>A shared ledger</td><td>S3</td><td>Build a tiny chain, then break it</td><td>Issuance spec (A2) + lab L1</td></tr><tr><td></td><td></td><td>S4</td><td>Markets: index, beta, access</td><td>Ticker / distribution freeze</td></tr><tr><td>3</td><td>Issue the coin</td><td>S5</td><td>Smart contracts as coordination</td><td>Parameters locked</td></tr><tr><td></td><td></td><td>S6</td><td>Create Eagecoin and airdrop it</td><td>Coin live (A3)</td></tr><tr><td>4</td><td>Share it in the system</td><td>S7</td><td>Payments: unit vs rail</td><td>Circulation log starts (A4)</td></tr><tr><td></td><td></td><td>S8</td><td>List the coin on the class AMM</td><td>Pool + lab L2</td></tr><tr><td>5</td><td>Make it a claim</td><td>S9</td><td>Tokenization: what is it a claim on?</td><td>Redemption rule (A5)</td></tr><tr><td></td><td></td><td>S10</td><td>Public money, netting, many coins</td><td>Obligation matrix</td></tr><tr><td>6</td><td>Stress, then license</td><td>S11</td><td>Runs, depegs, contagion</td><td>Kill criteria + lab L3</td></tr><tr><td></td><td></td><td>S12</td><td>If this left the lab, what license?</td><td>Compliance checklist (A6)</td></tr><tr><td>7</td><td>Demo day</td><td>S13</td><td>Share the coin, defend the system</td><td>Memo A7 + demo A8</td></tr></tbody></table>
+<p>If the calendar has a 14th hour, Week 7 splits into presentations plus a sit-down exam.</p>
+<p><strong>Quizzes (required; 15–20 min, closed notes).</strong> Q1 at the open of Week 3 (S1–S4). Q2 at the open of Week 5 (S5–S8). Q3 take-home the night before S13 if demo day is a single slot (S9–S12). Bring a calculator for Q2. <em>This offering treats quizzes as diagnostics unless the instructor announces they fold into the 15% gates.</em></p>
+<hr>
+<h2 id="7-assessment">7. Assessment</h2>
+<p>The coin is the exam.</p>
+<table><thead><tr><th>Component</th><th>Weight</th><th>What we look at</th></tr></thead><tbody><tr><td>Weekly gates A1–A6</td><td>15%</td><td>Intent, spec, deploy, circulation, claim, risk/compliance</td></tr><tr><td>Labs L1–L3</td><td>20%</td><td>Wrappers on Naranjo PoW, AMM, and peg-risk notebooks</td></tr><tr><td>Design memo A7</td><td>25%</td><td>~2,000 words: evidence, unbundle, go / partner / pass</td></tr><tr><td>Demo day A8</td><td>40%</td><td>Live transfer, quote, redemption, 8-minute defense</td></tr></tbody></table>
+<p><strong>A7 memo (required headings).</strong> Problem and community · Mechanism · Circulation evidence · What the market revealed · Unbundle the stack · What broke · Go / partner / pass · Sources (babysitting co-op <em>or</em> Sarafu; one Naranjo result; one MIT/BIS idea). No hype paragraph. No price prediction.</p>
+<p><strong>A8 live proofs (this order).</strong> Contract (network, cap, roles) → a classmate <em>not on your team</em> holding the coin → a pool quote → a transfer and a redemption → then the recommendation.</p>
+<hr>
+<h2 id="8-readings-keep-them-short">8. Readings (keep them short)</h2>
+<p>No single textbook. Cap assigned reading at about 40 pages/week. Full citations and links: <a href="handbook.html#sources-and-further-reading">concept handbook → Sources</a>.</p>
+<p><strong>Spine</strong></p>
+<table><thead><tr><th>Week</th><th>Must read (click through; do not substitute a recap blog)</th></tr></thead><tbody><tr><td>1</td><td>Prasad, <em>The Future of Money</em>, Ch. 1–2 · <a href="https://doi.org/10.2307/1992001" target="_blank" rel="noreferrer">Sweeney and Sweeney 1977</a> or <a href="https://slate.com/business/1998/08/baby-sitting-the-economy.html" target="_blank" rel="noreferrer">Krugman 1998</a> · <a href="https://doi.org/10.1038/s41598-023-33184-1" target="_blank" rel="noreferrer">Mattsson et al. 2023</a> on Sarafu</td></tr><tr><td>2</td><td><a href="https://bitcoin.org/bitcoin.pdf" target="_blank" rel="noreferrer">Nakamoto 2008</a> · one spot-Bitcoin ETF factsheet (post the PDF in the LMS)</td></tr><tr><td>3</td><td><a href="https://ethereum.org/whitepaper" target="_blank" rel="noreferrer">Ethereum whitepaper</a>, introduction + applications only · <a href="https://eips.ethereum.org/EIPS/eip-20" target="_blank" rel="noreferrer">EIP-20</a> · one stablecoin reserve/attestation report</td></tr><tr><td>4</td><td><a href="https://uniswap.org/whitepaper.pdf" target="_blank" rel="noreferrer">Uniswap v2 Core</a> (the constant-product pages) · Harvey, Ramachandran, and Santoro, <em>DeFi and the Future of Finance</em>, selected AMM pages</td></tr><tr><td>5</td><td><a href="https://www.bis.org/publ/qtrpdf/r_qt1709f.pdf" target="_blank" rel="noreferrer">Bech and Garratt 2017</a> (money flower) · one RWA / issuer brief</td></tr><tr><td>6</td><td><a href="https://www.nber.org/papers/w31160" target="_blank" rel="noreferrer">Liu, Makarov, and Schoar 2023</a> (Terra-Luna run) · <a href="https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html" target="_blank" rel="noreferrer">FATF 2021 VA guidance</a> · <a href="https://eur-lex.europa.eu/eli/reg/2023/1114/oj" target="_blank" rel="noreferrer">MiCA</a> or home-jurisdiction summary · <a href="https://supreme.justia.com/cases/federal/us/328/293/" target="_blank" rel="noreferrer"><em>Howey</em></a></td></tr><tr><td>7</td><td>Notes + A7 sources list only</td></tr></tbody></table>
+<p>Labs (instrument, not paste-the-file): Lorenzo Naranjo, <a href="https://www.lorenzonaranjo.com/class-materials/fintech/notebooks.html" target="_blank" rel="noreferrer">Fintech notebooks</a> — Blockchain Foundations, Proof of Work Example, crypto market index / PoS economics, AMMs, Stablecoins and Peg Risk.</p>
+<p>Use-case spine (not the PhD layer): MIT 14.129, Townsend, <a href="https://ocw.mit.edu/courses/14-129-blockchain-and-the-design-of-financial-systems-spring-2025/" target="_blank" rel="noreferrer">Blockchain and the Design of Financial Systems, Spring 2025</a>.</p>
+<hr>
+<h2 id="9-tools">9. Tools</h2>
+<p>Laptop every session. Python 3 + Jupyter (<code>student-files/requirements.txt</code>). MetaMask (or equivalent). Remix. Class testnet faucet. Instructor deploys CLASSUSD before Session 2 and keeps the address roster.</p>
+<hr>
+<h2 id="10-integrity-and-conduct">10. Integrity and conduct</h2>
+<ul><li>Labs: discussion allowed; written answers must be your own.</li><li>Quizzes: individual, closed notes.</li><li>A7: teammates may share logs and screenshots; the unbundle and recommendation must be your own words if the memo is individual.</li><li>A seed phrase in a submission is a <strong>security fail</strong> (points off and a private reset), not a clever appendix.</li><li>Mainnet deploy or a public sale for this course is a <strong>zero on the project</strong>.</li></ul>
+<hr>
+<h2 id="11-workload">11. Workload</h2>
+<p>Target 3–4 hours outside class per week: the session’s handbook pages, short reading, notebook cells, and the project gate. The memo is written across Weeks 3–6, not the night before demo day.</p>
+<hr>
+<p><em>Fintech · application-first · Eagecoin (EAGE) · testnet only · 13 × 62 minutes</em></p>
+    </article>
+  </div>
+</div>
+<footer class="site">Fintech · Eagecoin (EAGE) · CLASSUSD · testnet only · 13 × 62 minutes · Print this page to PDF if your LMS wants a file.</footer>
+
+</body>
+</html>
