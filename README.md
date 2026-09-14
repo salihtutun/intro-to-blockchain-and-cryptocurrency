@@ -1,18 +1,21 @@
 # Intro to Blockchain and Cryptocurrency
 
-Student files for the WashU Fintech course. **There are no quiz keys and no answer notebooks in this repo.**
+Student files for the WashU Fintech course. **There are no quiz keys and no answer notebooks in this repo.** Quizzes are closed notes and handed out in class — they are not posted here.
 
-Clone it:
+**Course site (read this in a browser):**  
+https://salihtutun.github.io/intro-to-blockchain-and-cryptocurrency/
+
+Clone the files:
 
 ```bash
 git clone https://github.com/salihtutun/intro-to-blockchain-and-cryptocurrency.git
 ```
 
-Then open `site/index.html` in a browser.
+Then open `site/index.html` if you are offline, or use the course site above.
 
 ## Open this first
 
-1. **Syllabus and all written work:** [`site/index.html`](site/index.html)
+1. **Syllabus and all written work:** [course site](https://salihtutun.github.io/intro-to-blockchain-and-cryptocurrency/) or [`site/index.html`](site/index.html)
 2. **Confused by a word?** [`site/handbook.html`](site/handbook.html) for that session (about 10 minutes). Pictures first, then the mechanism.
 3. **In class, typing along:** [`notebooks/sessions/`](notebooks/sessions/) — fill every `YOUR TURN` (`???`).
 4. **Assignment notebooks (optional helpers):** [`notebooks/assignments/`](notebooks/assignments/)
@@ -22,7 +25,8 @@ Then open `site/index.html` in a browser.
 | What to turn in, when | [`site/assessment.html`](site/assessment.html) |
 | A1–A8 prompts | [`site/assignments/`](site/assignments/) |
 | Labs L1–L3 | [`site/labs/`](site/labs/) |
-| Quizzes (when handed out) | [`site/quizzes/`](site/quizzes/) |
+| Sample one-pager / unbundle (not EAGE) | [`site/examples/`](site/examples/) |
+| Quizzes | In class — not posted ahead |
 
 ## This course is one project
 
