@@ -17,14 +17,16 @@ Then open `site/index.html` if you are offline, or use the course site above.
 
 1. **Syllabus and all written work:** [course site](https://salihtutun.github.io/intro-to-blockchain-and-cryptocurrency/) or [`site/index.html`](site/index.html)
 2. **Confused by a word?** [`site/handbook.html`](site/handbook.html) for that session (about 10 minutes). Pictures first, then the mechanism.
-3. **In class, typing along:** [`notebooks/sessions/`](notebooks/sessions/) — fill every `YOUR TURN` (`???`).
+3. **Each class (S1–S13):** [`site/sessions/`](site/sessions/) then the matching file in [`notebooks/sessions/`](notebooks/sessions/) — fill every `YOUR TURN` (`???`).
 4. **Assignment notebooks (optional helpers):** [`notebooks/assignments/`](notebooks/assignments/)
+5. **Take-home labs L1–L3:** [`notebooks/labs/`](notebooks/labs/) — **Run All**, then write the PDF from [`site/labs/`](site/labs/).
 
 | Want | Open |
 |---|---|
 | What to turn in, when | [`site/assessment.html`](site/assessment.html) |
+| 13 class sessions | [`site/sessions/`](site/sessions/) + [`notebooks/sessions/`](notebooks/sessions/) |
 | A1–A8 prompts | [`site/assignments/`](site/assignments/) |
-| Labs L1–L3 | [`site/labs/`](site/labs/) |
+| Take-home labs L1–L3 | [`notebooks/labs/`](notebooks/labs/) then [`site/labs/`](site/labs/) |
 | Sample one-pager / unbundle (not EAGE) | [`site/examples/`](site/examples/) |
 | Quizzes | In class — not posted ahead |
 
