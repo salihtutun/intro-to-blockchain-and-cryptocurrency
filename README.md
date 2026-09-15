@@ -15,7 +15,7 @@ Then open `site/index.html` if you are offline, or use the course site above.
 
 ## Open this first
 
-1. **Open Jupyter (15 minutes):** [`site/install.html`](site/install.html) — run the first Session 1 Demo.
+1. **Setup (three 15-minute pages):** [`site/setup.html`](site/setup.html) — Jupyter before S1, wallet before S2, Remix before S5.
 2. **Syllabus and all written work:** [course site](https://salihtutun.github.io/intro-to-blockchain-and-cryptocurrency/) or [`site/index.html`](site/index.html)
 3. **Confused by a word?** Re-run that session’s Demo cells, then [`site/handbook.html`](site/handbook.html) (missed-class review, about 10 minutes of pictures).
 4. **Each class (S1–S13):** [`site/sessions/`](site/sessions/) then the matching file in [`notebooks/sessions/`](notebooks/sessions/) — run every **Demo**, then fill **YOUR TURN** (`???`).
@@ -24,7 +24,7 @@ Then open `site/index.html` if you are offline, or use the course site above.
 
 | Want | Open |
 |---|---|
-| Open Jupyter (15 min) | [`site/install.html`](site/install.html) |
+| Setup (Jupyter · wallet · Remix) | [`site/setup.html`](site/setup.html) |
 | What to turn in, when | [`site/assessment.html`](site/assessment.html) |
 | 13 class sessions | [`site/sessions/`](site/sessions/) + [`notebooks/sessions/`](notebooks/sessions/) |
 | A1–A8 prompts | [`site/assignments/`](site/assignments/) |
@@ -44,4 +44,4 @@ Every assignment page starts with **in one sentence**, **what to turn in**, and 
 - Never put a seed phrase in a PDF or a chat.
 - Labs: you may talk; written answers must be yours.
 
-Python for labs: follow [`site/install.html`](site/install.html), or `pip install -r requirements.txt` then open Jupyter.
+Python for labs: follow [`site/setup.html`](site/setup.html) (Jupyter page), or `pip install -r requirements.txt` then open Jupyter. Never paste a seed into a notebook.
