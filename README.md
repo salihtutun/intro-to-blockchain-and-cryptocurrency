@@ -15,14 +15,16 @@ Then open `site/index.html` if you are offline, or use the course site above.
 
 ## Open this first
 
-1. **Syllabus and all written work:** [course site](https://salihtutun.github.io/intro-to-blockchain-and-cryptocurrency/) or [`site/index.html`](site/index.html)
-2. **Confused by a word?** Re-run that session’s Demo cells, then [`site/handbook.html`](site/handbook.html) (missed-class review, about 10 minutes of pictures).
-3. **Each class (S1–S13):** [`site/sessions/`](site/sessions/) then the matching file in [`notebooks/sessions/`](notebooks/sessions/) — run every **Demo**, then fill **YOUR TURN** (`???`).
-4. **Assignment notebooks (optional helpers):** [`notebooks/assignments/`](notebooks/assignments/)
-5. **Take-home labs L1–L3:** [`notebooks/labs/`](notebooks/labs/) — **Run All**, then write the PDF from [`site/labs/`](site/labs/).
+1. **Open Jupyter (15 minutes):** [`site/install.html`](site/install.html) — run the first Session 1 Demo.
+2. **Syllabus and all written work:** [course site](https://salihtutun.github.io/intro-to-blockchain-and-cryptocurrency/) or [`site/index.html`](site/index.html)
+3. **Confused by a word?** Re-run that session’s Demo cells, then [`site/handbook.html`](site/handbook.html) (missed-class review, about 10 minutes of pictures).
+4. **Each class (S1–S13):** [`site/sessions/`](site/sessions/) then the matching file in [`notebooks/sessions/`](notebooks/sessions/) — run every **Demo**, then fill **YOUR TURN** (`???`).
+5. **Assignment notebooks (optional helpers):** [`notebooks/assignments/`](notebooks/assignments/)
+6. **Take-home labs L1–L3:** [`notebooks/labs/`](notebooks/labs/) — **Run All**, then write the PDF from [`site/labs/`](site/labs/).
 
 | Want | Open |
 |---|---|
+| Open Jupyter (15 min) | [`site/install.html`](site/install.html) |
 | What to turn in, when | [`site/assessment.html`](site/assessment.html) |
 | 13 class sessions | [`site/sessions/`](site/sessions/) + [`notebooks/sessions/`](notebooks/sessions/) |
 | A1–A8 prompts | [`site/assignments/`](site/assignments/) |
@@ -42,4 +44,4 @@ Every assignment page starts with **in one sentence**, **what to turn in**, and 
 - Never put a seed phrase in a PDF or a chat.
 - Labs: you may talk; written answers must be yours.
 
-Python for labs: `pip install -r requirements.txt` then open Jupyter.
+Python for labs: follow [`site/install.html`](site/install.html), or `pip install -r requirements.txt` then open Jupyter.
