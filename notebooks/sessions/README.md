@@ -18,8 +18,8 @@ There is **one notebook per class**. Open the matching file while we project.
 | 12 | `S12_if_this_left_the_lab.ipynb` |
 | 13 | `S13_demo_day.ipynb` |
 
-Fill every `YOUR TURN` cell. `???` will not run until you replace it. There is no answer key here.
+Run every **Demo** cell (it already works). Then fill **YOUR TURN**. `???` will not run until you replace it. There is no answer key here.
 
-What to do before/after class: `site/sessions/` (or the Sessions tab on the course site).
+What to do before/after class: `site/sessions/` (or the Sessions tab on the course site). Missed class? `site/handbook.html` is the review copy.
 
 Take-home graded labs (L1–L3) are in `../labs/`, not this folder.

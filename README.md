@@ -16,8 +16,8 @@ Then open `site/index.html` if you are offline, or use the course site above.
 ## Open this first
 
 1. **Syllabus and all written work:** [course site](https://salihtutun.github.io/intro-to-blockchain-and-cryptocurrency/) or [`site/index.html`](site/index.html)
-2. **Confused by a word?** [`site/handbook.html`](site/handbook.html) for that session (about 10 minutes). Pictures first, then the mechanism.
-3. **Each class (S1–S13):** [`site/sessions/`](site/sessions/) then the matching file in [`notebooks/sessions/`](notebooks/sessions/) — fill every `YOUR TURN` (`???`).
+2. **Confused by a word?** Re-run that session’s Demo cells, then [`site/handbook.html`](site/handbook.html) (missed-class review, about 10 minutes of pictures).
+3. **Each class (S1–S13):** [`site/sessions/`](site/sessions/) then the matching file in [`notebooks/sessions/`](notebooks/sessions/) — run every **Demo**, then fill **YOUR TURN** (`???`).
 4. **Assignment notebooks (optional helpers):** [`notebooks/assignments/`](notebooks/assignments/)
 5. **Take-home labs L1–L3:** [`notebooks/labs/`](notebooks/labs/) — **Run All**, then write the PDF from [`site/labs/`](site/labs/).
 
