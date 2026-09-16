@@ -29,7 +29,7 @@ Then open `site/index.html` if you are offline, or use the course site above.
 | 13 class sessions | [`site/sessions/`](site/sessions/) + [`notebooks/sessions/`](notebooks/sessions/) |
 | A1–A8 prompts | [`site/assignments/`](site/assignments/) |
 | Take-home labs L1–L3 | [`notebooks/labs/`](notebooks/labs/) then [`site/labs/`](site/labs/) |
-| Sample one-pager / unbundle (not EAGE) | [`site/examples/`](site/examples/) |
+| Sample PDFs (laundry, not EAGE) | [`site/examples/`](site/examples/) |
 | Quizzes | In class — not posted ahead |
 
 ## This course is one project
