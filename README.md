@@ -1,6 +1,6 @@
-# Intro to Blockchain and Cryptocurrency
+# ACCT 5105-01 - Financial Reporting & Assurance in a Blockchain World
 
-Student files for the WashU Fintech course. **There are no quiz keys and no answer notebooks in this repo.** Quizzes are closed notes and handed out in class — they are not posted here.
+Student files for ACCT 5105-01. **There are no quiz keys and no answer notebooks in this repo.** Quizzes are closed notes and handed out in class — they are not posted here.
 
 **Course site (read this in a browser):**  
 https://salihtutun.github.io/intro-to-blockchain-and-cryptocurrency/
